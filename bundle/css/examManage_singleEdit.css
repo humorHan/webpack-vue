@@ -1,0 +1,47 @@
+/**{margin:0;padding:0}*/
+/*body{font-family:"微软雅黑";font-size:14px}*/
+/*li{list-style:none}*/
+/*a{text-decoration:none}*/
+/*主要内容部分*/
+/*
+@import "./common/public.less";*/
+.singheader {
+  height: 880px;
+  background: #e4ecef;
+}
+.subgradid {
+  width: 100px;
+  height: 29px;
+  border: none;
+  border: 1px solid #d4d5d5;
+}
+.inputdate {
+  width: 100px;
+  height: 29px;
+  border: none;
+  border: 1px solid #d4d5d5;
+}
+.singheader .btn-block {
+  display: inline;
+  width: 65px;
+  margin-left: 20px;
+}
+.singtitle {
+  font-size: 16px;
+  color: #347897;
+  height: 58px;
+  line-height: 58px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccd4d7;
+}
+.main-click {
+  margin: 23px 0;
+}
+.main-click span {
+  margin: 0 20px 10px;
+}
+.recordTime {
+  margin-left: 65px;
+}
+
+/*# sourceMappingURL=maps/examManage_singleEdit.css.map */

@@ -1,0 +1,149 @@
+/*
+ * Skin: mfg-blue
+ * ----------
+ */
+.skin-mfg-blue .main-header .navbar {
+  background-color: #3da1ce;
+}
+.skin-mfg-blue .main-header .navbar .nav > li > a {
+  color: #ffffff;
+}
+.skin-mfg-blue .main-header .navbar .nav > li > a:hover,
+.skin-mfg-blue .main-header .navbar .nav > li > a:active,
+.skin-mfg-blue .main-header .navbar .nav > li > a:focus,
+.skin-mfg-blue .main-header .navbar .nav .open > a,
+.skin-mfg-blue .main-header .navbar .nav .open > a:hover,
+.skin-mfg-blue .main-header .navbar .nav .open > a:focus,
+.skin-mfg-blue .main-header .navbar .nav > .active > a {
+  background: rgba(0, 0, 0, 0.1);
+  color: #f6f6f6;
+}
+.skin-mfg-blue .main-header .navbar .sidebar-toggle {
+  color: #ffffff;
+}
+.skin-mfg-blue .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-mfg-blue .main-header .navbar .sidebar-toggle {
+  color: #fff;
+}
+.skin-mfg-blue .main-header .navbar .sidebar-toggle:hover {
+  background-color: #3194c1;
+}
+@media (max-width: 767px) {
+  .skin-mfg-blue .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-mfg-blue .main-header .navbar .dropdown-menu li a {
+    color: #fff;
+  }
+  .skin-mfg-blue .main-header .navbar .dropdown-menu li a:hover {
+    background: #3194c1;
+  }
+}
+.skin-mfg-blue .main-header .logo {
+  background-color: #3194c1;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-mfg-blue .main-header .logo:hover {
+  background-color: #3091bd;
+}
+.skin-mfg-blue .main-header li.user-header {
+  background-color: #3da1ce;
+}
+.skin-mfg-blue .content-header {
+  background: transparent;
+}
+.skin-mfg-blue .wrapper,
+.skin-mfg-blue .main-sidebar,
+.skin-mfg-blue .left-side {
+  background-color: #244250;
+  color: #FFFFFF;
+  font-family: "微软雅黑";
+}
+.skin-mfg-blue .user-panel > .info,
+.skin-mfg-blue .user-panel > .info > a {
+  color: #fff;
+}
+.skin-mfg-blue .sidebar-menu > li.header {
+  color: #ffffff;
+  background: #244250;
+}
+.skin-mfg-blue .sidebar-menu > li > a {
+  border-left: 3px solid transparent;
+}
+.skin-mfg-blue .sidebar-menu > li:hover > a,
+.skin-mfg-blue .sidebar-menu > li.active > a {
+  color: #c2d9e4;
+  background: #213c49;
+  border-left-color: #3da1ce;
+}
+.skin-mfg-blue .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #347897;
+}
+.skin-mfg-blue .sidebar a {
+  color: #ffffff;
+}
+.skin-mfg-blue .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-mfg-blue .treeview-menu > li {
+  border-bottom: solid 1px #366c85;
+  height: 40px;
+  line-height: 40px;
+}
+.skin-mfg-blue .treeview-menu > li > a {
+  color: #ffffff;
+}
+.skin-mfg-blue .treeview-menu > li.active > a,
+.skin-mfg-blue .treeview-menu > li > a:hover {
+  color: #ffffff;
+}
+.skin-mfg-blue .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #345f73;
+  margin: 10px 10px;
+}
+.skin-mfg-blue .sidebar-form input[type="text"],
+.skin-mfg-blue .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #345f73;
+  border: 1px solid transparent;
+  height: 35px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.skin-mfg-blue .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-mfg-blue .sidebar-form input[type="text"]:focus,
+.skin-mfg-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: #fff;
+  color: #666;
+}
+.skin-mfg-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: #fff;
+}
+.skin-mfg-blue .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.skin-mfg-blue.layout-top-nav .main-header > .logo {
+  background-color: #3da1ce;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-mfg-blue.layout-top-nav .main-header > .logo:hover {
+  background-color: #399fcd;
+}

@@ -1,0 +1,59 @@
+.choseQuestion-tree {
+  width: 258px;
+  height: 900px;
+  float: left;
+  background: #4b93b4;
+}
+.choseQuestion-content {
+  height: 880px;
+  margin-left: 258px;
+  padding: 10px;
+}
+.choseQuestion-content .question-show {
+  height: 880px;
+  background: #fff;
+  overflow-y: auto ;
+}
+.choseQuestion-content .tab {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  background: #e4ecef;
+}
+.choseQuestion-content .tab .choseTab {
+  width: 260px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+  border-radius: 25px 25px 0 0;
+}
+.choseQuestion-content .tab .choseTab-one {
+  width: 114px;
+  height: 40px;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-radius: 25px 0 0;
+  border: transparent;
+}
+.choseQuestion-content .tab .choseTab-bor {
+  width: 30px;
+  height: 40px;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc ;
+  border-left: transparent;
+  border-radius: 25px 25px 0 0;
+}
+.choseQuestion-content .tab .choseTab-two {
+  width: 114px;
+  height: 40px;
+  background: #deecfc;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-radius: 0px 25px 0 0;
+  border: transparent;
+}
+
+/*# sourceMappingURL=maps/choseQuestion.css.map */

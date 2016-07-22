@@ -1,0 +1,102 @@
+@import "./common/base";
+//目录结构树
+.choseQuestion-tree{
+  width:258px;
+  height:900px;
+  float:left;
+  background:@choseQustion-bg;
+}
+
+//试题显示
+.choseQuestion-content{
+  height:880px;
+  margin-left: 258px;
+  padding:10px;
+
+  .question-show{
+    height: 880px;
+    overflow-y:auto ;
+
+  }
+
+  .tab{
+    width:100%;
+    height: 40px;
+    position: relative;
+    background:#e4ecef;
+    font-size: 16px;
+
+    p{
+      width:100%;
+      height:40px;
+    }
+  }
+
+  .choseTab-one{
+    width:145px;
+    height:41px;
+    border:1px solid #ccc;
+    border-bottom:1px solid #fff;
+    padding:0 15px;
+    .border-radius(25px 25px 0 0);
+    position: absolute;
+    top:0;
+    left:0;
+
+  }
+
+  .choseTab-two{
+    width:145px;
+    height:41px;
+    padding:0 15px;
+    border:1px solid #ccc;
+    border-bottom:1px solid #fff;
+    .border-radius(25px 25px 0 0);
+    background:#deecfc;
+    position: absolute;
+    top:0;
+    left:105px;
+  }
+  .choseTab-show{
+    width:100%;
+    min-height:840px;
+    border:1px solid #ccc;
+    background: #fff;
+    .border-radius(0 25px 25px 25px);
+  }
+
+}
+
+//choseTab
+.choseTab-active{
+    height: 41px;
+    z-index: 100;
+    line-height: 40px;
+    text-align: center;
+    background: #fff !important;
+    p{
+      border-bottom: 1px solid #ccc;
+      margin-left: 0;
+    }
+}
+
+.choseTab-visited{
+   height: 41px;
+   line-height: 41px;
+   text-align: center;
+   background: #deecfc;
+   p{
+     margin-left:17px ;
+     border-bottom:none ;
+   }
+ }
+.choseTab-visited1{
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  background: #deecfc;
+  p{
+    margin-right:17px ;
+    border-bottom: none;
+  }
+}

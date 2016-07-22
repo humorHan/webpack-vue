@@ -1,0 +1,56 @@
+//变量
+@url:'../img/';
+
+//颜色
+@choseQustion-bg:#4b93b4;
+
+
+//css3兼容类
+.opacity(@opacity) {
+  opacity: @opacity;
+  // IE8 filter
+  @opacity-ie: (@opacity * 100);
+  filter: ~"alpha(opacity=@{opacity-ie})";
+}
+.border-radius(@value:0){
+  border-radius:@value;
+}
+.background-size(@value:auto){
+  background-size:@string;
+}
+.box-shadow(@value:none;){
+  box-shadow:@value;
+}
+.box-shadow-ie(@value){
+  /*ie 兼容*/
+  background-size:cover
+}
+.opacity(@value:1){
+  opacity:@value;
+}
+.text-overflow(@value:ellipsis){
+  text-overflow:@value;
+  white-space:nowrap;
+  overflow:hidden;
+}
+.transform(@value:none){
+  transform:@value;
+  -ms-transform:@value;
+  -webkit-transform:@value;
+  -moz-transform:@value;
+  -o-transform:@value;
+}
+.transform-origin(@value:50% 50%){
+  transform-origin:@value;
+  -webkit-transform-origin:@value;
+  -ms-transform-origin:@value;
+  -moz-transform-origin:@value;
+  -o-transform-origin:@value;
+}
+.transition(@value){
+  transition:@value;
+  -webkit-transition:@value;
+  -moz-transition:@value;
+  -ms-transition:@value;
+  -o-transition:@value;
+}

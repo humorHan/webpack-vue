@@ -1,0 +1,46 @@
+{
+  "name": "Mfg_Resource_DashBoard",
+  "version": "1.0.0",
+  "description": "Mfg_Resource_DashBoard",
+  "main": "gulpFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "null"
+  ],
+  "author": "humorHan",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-runtime": "^6.0.0",
+    "extract-text-webpack-plugin":"*",
+    "vue": "^1.0.26",
+    "vue-loader": "^8.2.1",
+    "vue-router": "*",
+    "vuestrap": "^1.0.3",
+    "style-loader": "*",
+    "css-loader": "*",
+    "less-loader": "*",
+    "webpack-stream": "*",
+    "gulp": "^3.9.1",
+    "gulp-less": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-plumber": "*",
+    "vinyl-named": "*",
+    "webpack": "1.13.1",
+    "tmodjs-loader": "*",
+    "url-loader": "*",
+    "stylus-loader": "*",
+    "script-loader": "*",
+    "gulp-minify-css": "*",
+    "del": "*",
+    "vinyl-paths": "*",
+    "gulp-rev": "*",
+    "gulp-rev-collector": "*"
+
+  }
+}
