@@ -16,7 +16,7 @@
     }
   .content-header{
       padding: 15px !important;
-      border-bottom: 3px solid #d2d6de;
+      border-bottom: 2px solid #d2d6de;
   }
 </style>
 <script>
